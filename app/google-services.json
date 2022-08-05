@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "912204063566",
+    "project_id": "store-dz-5fc01",
+    "storage_bucket": "store-dz-5fc01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912204063566:android:63ed358d48245b8320b41f",
+        "android_client_info": {
+          "package_name": "com.mezdah.mystore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912204063566-g67igavlk1sfvjtbjp3l4q6rrrsk1vef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQylEhSnIp4Wfoo5kkdXBDfWyb1QJXTCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912204063566-g67igavlk1sfvjtbjp3l4q6rrrsk1vef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

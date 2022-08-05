@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user.ConfirmOrderAct">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_weight="1"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="top"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_back"
+                app:tint="#000">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/product_title_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Confirm order"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Full name"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="full name"
+            android:textSize="20sp">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Phone number"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"
+            android:inputType="phone"
+            android:textSize="20sp">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Address"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full address"
+            android:textSize="20sp">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Wilaya"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/wilaya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wilaya"
+            android:inputType="text"
+            android:textSize="20sp">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Commune"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/commune"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Commune"
+            android:inputType="text"
+            android:textSize="20sp">
+
+        </EditText>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/total_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Price"
+
+                android:textColor="@color/black"
+                android:textSize="19sp">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/confirm_order"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/orange"
+                android:text="Purchase"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19sp">
+
+            </Button>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#3A383D</color>
+    <color name="secondarycolor">#3A383D</color>
+    <color name="accentcolor">#8F8B98</color>
+    <color name="orange">#FEAD00</color>
+    <color name="teal_200">#8C949C</color>
+    <color name="teal_700">#8C949C</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#b0b0b0</color>
+    <color name="green">#09ED00</color>
+    <color name="red">#ff00</color>
+    <color name="blue">#00A2FF</color>
+</resources>

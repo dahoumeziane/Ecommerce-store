@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">mystore</string>
+    <string name="you_already">You already have an account ? <b><u>Login</u></b> </string>
+    <string name="you_dont">You dont have an account ? <b><u>sign up</u></b> </string>
+    <string name="db_url">https://store-dz-5fc01-default-rtdb.europe-west1.firebasedatabase.app/</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="BASE_URL">https://fcm.googleapis.com</string>
+
+    <string name="SERVER_KEY">AAAA1GOZY04:APA91bHDGD8PoWzKsVholGdgxfzJvDG8C3-YAWEfLxiPBA6KQyWDoVkhW7V7px6EsePyA53stvSg41LA5KWDkk1rpqqmLdJ9zSWhuL7NMSgVgXGhWoIhdnjT712pY0Y8FNYhxJNNkNL5</string>
+    <string name="CONTENT_TYPE">application/json</string>
+
+</resources>
